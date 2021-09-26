@@ -1,5 +1,4 @@
 # E - Coders: Official
-Welcome to Our Site Respribity on Github! Made by @E-Coders for his youtube channel!!
-```python
-print("Hello World")
-```
+Hi!! Welcome to my youtube channel Official Site!! In this I shares about me, tutorials and more. I also add a news page in a few days.<br>
+E - Coders<br>
+Thank you!!
