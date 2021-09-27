@@ -12,7 +12,14 @@
       "profile": "https://github.com/e-coders",
       "contributions": [
         "ideas",
-        "code"
+        "code",
+        "bug",
+        "content",
+        "data",
+        "design",
+        "financial",
+        "test",
+        "tutorial"
       ]
     }
   ],
