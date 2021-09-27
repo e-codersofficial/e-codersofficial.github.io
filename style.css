@@ -1,3 +1,4 @@
+/* Fonts */
 /* devanagari */
 @font-face {
   font-family: 'Poppins';
@@ -233,4 +234,10 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
 .h1{
   margin: 8px;
   font-size: 50px;
+}
+button{
+  transition: 0.2s;
+}
+.align-center{
+  transform: translateX(0%) translateY(25%);
 }
