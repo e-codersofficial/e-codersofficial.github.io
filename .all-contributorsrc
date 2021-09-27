@@ -1,0 +1,32 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "e-coders",
+      "name": "E - Coders (Aasheesh Agarwal)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83082760?v=4",
+      "profile": "https://github.com/e-coders",
+      "contributions": [
+        "ideas",
+        "code",
+        "bug",
+        "content",
+        "data",
+        "design",
+        "financial",
+        "test",
+        "tutorial"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "e-coders-official.github.io",
+  "projectOwner": "E-Coders-Official",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
