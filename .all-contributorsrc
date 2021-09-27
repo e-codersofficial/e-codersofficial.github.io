@@ -48,6 +48,15 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "bootstrap",
+      "name": "bootstrap",
+      "avatar_url": "https://avatars.githubusercontent.com/u/788835?v=4",
+      "profile": "https://github.com/bootstrap",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
