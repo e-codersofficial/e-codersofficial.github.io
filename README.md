@@ -1,6 +1,6 @@
 # E - Coders: Official
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Hi!! Welcome to my youtube channel Official Site!! In this I shares about me, tutorials and more. I have now added the news page, now I make more pages. Thank you!!
 > Google Fonts<BR>
@@ -28,6 +28,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://codepen.io/Super45coder59"><img src="https://avatars.githubusercontent.com/u/80135238?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aarush Goradia</b></sub></a><br /><a href="#ideas-Super45coder" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="http://anantjit.whjr.site"><img src="https://avatars.githubusercontent.com/u/74092334?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anantjit</b></sub></a><br /><a href="#ideas-Genius398" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://opensource.google/"><img src="https://avatars.githubusercontent.com/u/1342004?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Google</b></sub></a><br /><a href="#design-Google" title="Design">🎨</a></td>
+    <td align="center"><a href="http://tailwindcss.com"><img src="https://avatars.githubusercontent.com/u/67109815?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tailwind Labs</b></sub></a><br /><a href="#design-Tailwindlabs" title="Design">🎨</a></td>
   </tr>
 </table>
 
