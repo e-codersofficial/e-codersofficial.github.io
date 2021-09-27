@@ -39,6 +39,15 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "Google",
+      "name": "Google",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1342004?v=4",
+      "profile": "https://opensource.google/",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
