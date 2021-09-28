@@ -48,6 +48,15 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "Tailwindlabs",
+      "name": "Tailwind Labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67109815?v=4",
+      "profile": "http://tailwindcss.com",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
