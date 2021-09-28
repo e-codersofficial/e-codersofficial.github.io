@@ -28,12 +28,55 @@
 
 <body class="homepage grey">
   <script>
-  window.formbutton = window.formbutton || function() {
-    (formbutton.q = formbutton.q || []).push(arguments)
-  };
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  /* customize formbutton below*/     
   formbutton("create", {
-    action: "https://formspree.io/xqkwnnvy"
-  })
+    action: "https://formspree.io/f/xqkwnnvy",
+    title: "How can we help?",
+    fields: [
+      {
+        type: "text",
+        label: "Name:",
+        name: "_name",
+        required: true,
+        placeholder: "Aasheesh Agarwal"
+      },
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "code.with.aasheesh@gmail.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      {
+        required: false,
+        label: "I Like 👍",
+        type: "radio",
+        name: "👍"
+      },
+      {
+        required: false,
+        label: "I Dislike 👎",
+        type: "radio",
+        name: "👎"
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "#088dcf"
+      },
+      button: {
+        backgroundColor: "#035f8c"
+      }
+    }
+  });
   </script>
   <header class="container header"> <a href="https://www.youtube.com/channel/UCfTTIgSYOwY3gmCI7YhisEA" class="logo">E - Coders</a>
     <nav>
