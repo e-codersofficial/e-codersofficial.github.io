@@ -12,7 +12,7 @@ Hi!! Welcome to my youtube channel Official Site!! In this I shares about me, tu
   25 Septemeber 2021: Project Started by @E-Coders.<br>
   26 Septemeber 2021: Success On Adding Homepage.<br>
   27 Septemeber 2021: Added News Page where you find news, and the Fullscreen page discuss about one topic.<br>
-  27 Septemeber 2021: Fixed Some Images aren't showing
+  27 Septemeber 2021: Fixed Some Images aren't showing<br>
   28 Septemeber 2021: Added 404 Page With Working Credetinals.
 
 ## Contributors ✨
