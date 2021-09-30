@@ -69,6 +69,17 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "buunguyen",
+      "name": "Buu Nguyen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/406631?v=4",
+      "profile": "https://github.com/buunguyen",
+      "contributions": [
+        "design",
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
