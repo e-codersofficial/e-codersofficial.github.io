@@ -1,6 +1,6 @@
 # E - Coders: Official
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Hi!! Welcome to my youtube channel Official Site!! In this I shares about me, tutorials and more. I have now added the news page, now I make more pages. Thank you!!
 > Google Fonts<BR>
