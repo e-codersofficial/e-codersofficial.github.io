@@ -1,5 +1,8 @@
 # E - Coders: Official
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Hi!! Welcome to my youtube channel Official Site!! In this I shares about me, tutorials and more. I have now added the news page, now I make more pages. Thank you!!
@@ -18,6 +21,19 @@ Hi!! Welcome to my youtube channel Official Site!! In this I shares about me, tu
 ## Contributors ✨
 
 Hover on icons to see their description.<br>
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/e-coders"><img src="https://avatars.githubusercontent.com/u/83082760?v=4?s=100" width="100px;" alt=""/><br /><sub><b>E - Coders (Aasheesh Agarwal)</b></sub></a><br /><a href="#ideas-e-coders" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/e-codersofficial/e-codersofficial.github.io/commits?author=e-coders" title="Code">💻</a> <a href="https://github.com/e-codersofficial/e-codersofficial.github.io/issues?q=author%3Ae-coders" title="Bug reports">🐛</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
