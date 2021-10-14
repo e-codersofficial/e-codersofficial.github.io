@@ -1,1 +1,2 @@
-Open Source code. Read Code Of Conduct before contributing
+Open Source code. Read Code Of Conduct before contributing<br>
+After it, Simply Fork and then start editing files then on the main code tab of your fork, click on the Contribute then create pull request then send us with a message, then we merge if your looks good, we give you extra access to do more without our privelleges.
