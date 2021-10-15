@@ -279,3 +279,6 @@ button {
 .disabled {
   cursor: not-allowed;
 }
+.ca{
+  text-align: center;
+}
