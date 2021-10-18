@@ -15,7 +15,6 @@ body {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	word-wrap: break-word;
-	overflow: hidden;
 }
 
 * {
@@ -3131,26 +3130,4 @@ summary {
 
 [hidden],template {
 	display: none;
-}
-.avatars{
-	display: flex;
-	transform:translateX(26%);
-}
-.avatars__item{
-	margin: 10px;
-	margin-top: 15px;
-}
-.avatars__item:hover{
-	cursor: none;
-}
-.avatars__image{
-    box-shadow: 0 0 0 4px #fff;
-    display: flex;
-    justify-content: center;
-    border-radius: 9999px;
-    text-align: center;
-}
-.html-icon{
-	width: 96px;
-	height: 96px;
 }
