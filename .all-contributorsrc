@@ -13,9 +13,13 @@
       "contributions": [
         "ideas",
         "code",
-        "bug"
+        "bug",
+        "security",
+        "planning",
+        "projectManagement",
+        "tool"
       ]
-    }
+    },
   ],
   "contributorsPerLine": 7,
   "projectName": "e-codersofficial.github.io",
