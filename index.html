@@ -40,6 +40,17 @@
   <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </script>
+  <style type="text/css">
+    #g-recaptcha-response {
+    display: block !important;
+    position: absolute;
+    margin: -78px 0 0 0 !important;
+    width: 302px !important;
+    height: 76px !important;
+    z-index: -999999;
+    opacity: 0;
+}
+  </style>
 </head>
 <script type="text/javascript" src="topbar.js"></script>
 
@@ -93,6 +104,13 @@
         }
       }
     });
+    window.onload = function() {
+    var $recaptcha = document.querySelector('#g-recaptcha-response');
+
+    if($recaptcha) {
+        $recaptcha.setAttribute("required", "required");
+    }
+};
   </script>
   <header class="container header"> <a href="https://www.youtube.com/channel/UCfTTIgSYOwY3gmCI7YhisEA" class="logo">E -
       Coders</a>
