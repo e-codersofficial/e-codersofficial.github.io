@@ -39,18 +39,8 @@
     crossorigin="anonymous"></script>
   <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script type="text/javascript" src="captcha.js"></script>
   </script>
-  <style type="text/css">
-    #g-recaptcha-response {
-    display: block !important;
-    position: absolute;
-    margin: -78px 0 0 0 !important;
-    width: 302px !important;
-    height: 76px !important;
-    z-index: -999999;
-    opacity: 0;
-}
-  </style>
 </head>
 <script type="text/javascript" src="topbar.js"></script>
 
@@ -104,13 +94,6 @@
         }
       }
     });
-    window.onload = function() {
-    var $recaptcha = document.querySelector('#g-recaptcha-response');
-
-    if($recaptcha) {
-        $recaptcha.setAttribute("required", "required");
-    }
-};
   </script>
   <header class="container header"> <a href="https://www.youtube.com/channel/UCfTTIgSYOwY3gmCI7YhisEA" class="logo">E -
       Coders</a>
@@ -212,7 +195,7 @@
   <br>
   <br>
   <div class="containerform centred-content">
-    <form action="https://formspree.io/f/xqkwnnvy" method="post">
+    <form action="https://formspree.io/f/xqkwnnvy" method="post" onsubmit="check_if_capcha_is_filled()">
       <h1 class="h1">Let's talk together!!</h1>
       <p>I Love Talking to you!! Send me a message!!</p>
       <div class="group">
@@ -227,7 +210,7 @@
         <input type="text" required name="Message" value=""> <span class="highlight"></span> <span class="bar"></span>
         <label>Message (required)</label>
       </div>
-      <div class="g-recaptcha" data-sitekey="6LeDedIcAAAAAFh1Ky680PU74d6YtN7q_9gpLiZy" align="center"required ></div>
+      <div class="g-recaptcha" data-sitekey="6LeDedIcAAAAAFh1Ky680PU74d6YtN7q_9gpLiZy" align="center" data-callback="capcha_filled()" data-expired-callback="capcha_expired();"></div>
       <button type="submit" class="btn-send">Send</button>
       <input type="hidden" name="subject" value="New Customer Response About E - Coders On Your Site!!" />
     </form>
