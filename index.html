@@ -39,23 +39,6 @@
     crossorigin="anonymous"></script>
   <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  <script type="text/javascript" src="captcha.js"></script>
-  <style type="text/css">
-    .captcha {
-  position: relative;
-}
-.captcha-fake-field {
-  background: white;
-  bottom: 0;
-  border: 1.5px solid transparent;
-  display: block;
-  height: 1px;
-  left: 12px;
-  width: 1px;
-  position: absolute;
-  z-index: -1;
-}
-  </style>
   </script>
 </head>
 <script type="text/javascript" src="topbar.js"></script>
@@ -226,10 +209,7 @@
         <input type="text" required name="Message" value=""> <span class="highlight"></span> <span class="bar"></span>
         <label>Message (required)</label>
       </div>
-      <div class="captcha">
-   <div class="g-recaptcha" data-sitekey="6LeDedIcAAAAAFh1Ky680PU74d6YtN7q_9gpLiZy" data-callback="removeFakeCaptcha();"></div>
-   <input type="checkbox" class="captcha-fake-field" tabindex="-1" required>
-</div>
+   <div class="g-recaptcha" data-sitekey="6LeDedIcAAAAAFh1Ky680PU74d6YtN7q_9gpLiZy"></div>
       <button type="submit" class="btn-send">Send</button>
       <input type="hidden" name="subject" value="New Customer Response About E - Coders On Your Site!!" />
     </form>
