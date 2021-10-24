@@ -4,6 +4,12 @@
  * http://buunguyen.github.io/topbar
  * Copyright (c) 2021 Buu Nguyen
  */
+
+/** 
+ * Used in this site, This topbar.js was made by buumguyen on github.
+ * I was added them as a contributor, but he says to remove the contribution.
+ * You can talk to @buunguyen On github instead if have any questions about Am I copying that.
+ */
 (function (window, document) {
   "use strict";
 
