@@ -42,6 +42,9 @@
     crossorigin="anonymous"></script>
   <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <link rel="stylesheet" type="text/css" href="loader.css">
+  <script type="text/javascript" src="loader.js"defer></script>
+  <link rel="stylesheet" type="text/css" href="btns.css">
   </script>
 </head>
 <script type="text/javascript" src="topbar.js"></script>
@@ -108,12 +111,18 @@
       </ul>
     </nav>
   </header>
+  <div class="showbox" id="loading">
+  <div class="loader"> <svg class="circular" viewBox="25 25 50 50">
+    <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+    </svg> </div>
+</div>
+<div style="display: none;" id="content">
   <div class="hero container home">
     <div class="col-100 mobile-col-12 center">
       <h1 class="h1">Learn Programming With</h1>
       <p><b>Aasheesh Agarwal</b></p>
-      <p>Python, HTML, CSS, JS, Scratch!!</p> <a href="https://www.youtube.com/channel/UCfTTIgSYOwY3gmCI7YhisEA"
-        class="hero-button cta-button">Start Learning</a>
+      <p>Python, HTML, CSS, JS, Scratch!!</p>
+        <a href="https://www.youtube.com/channel/UCfTTIgSYOwY3gmCI7YhisEA" target="_blank"><div class="btn-container"><button class="btn btn-moving-gradient btn-moving-gradient--blue">Start Learning</button></div></a>
     </div>
   </div>
   <div class="wave"></div>
@@ -178,8 +187,18 @@
         Python: A Programming language made on a device with Coding.
       </p>
       <br>
-      <br> <a href="https://www.youtube.com/channel/UCfTTIgSYOwY3gmCI7YhisEA" class="cta-button cta-primary start">Start
-        Coding</a>
+      <br> <a href="https://www.youtube.com/channel/UCfTTIgSYOwY3gmCI7YhisEA" target="_blank">
+        <div class="btn-container left">
+                  <div class="btn btn-arrow-slide">
+                     <button class="btn-arrow-slide-cont btn-arrow-slide-cont--blue">
+                     <span class="btn-arrow-slide-circle" aria-hidden="true">
+                     <span class="btn-arrow-slide-icon btn-arrow-slide-arrow"></span>
+                     </span>
+                     <span class="btn-arrow-slide-text">Learn now</span>
+                     </button>
+                  </div>
+               </div>
+      </a>
     </div>
   </div>
   <br>
@@ -195,7 +214,7 @@
     </p>
     <br>
     <a href="news">
-      <button class="cta-button cta-primarystart-news" title="Read News">Read News</button>
+      <button class="btn border-flip border-flip--purple" title="Read News">Read News</button>
     </a>
   </div>
   <br>
@@ -220,7 +239,7 @@
         <label>Message (required)</label>
       </div>
       <div class="g-recaptcha" data-sitekey="6LeDedIcAAAAAFh1Ky680PU74d6YtN7q_9gpLiZy" align="center"></div>
-      <button type="submit" class="btn-send">Send</button>
+      <button type="submit" class="btn flash-slide flash-slide--orange">Send</button>
       <input type="hidden" name="subject" value="New Customer Response About E - Coders On Your Site!!" />
     </form>
   </div>
@@ -231,12 +250,13 @@
   <div class="final-cta">
     <div class="container final-cta centred-content">
       <h1 class="h1">Start Coding Today!!</h1>
-      <p>Learn today, Build a Brighter tommorow</p> <a href="https://www.youtube.com/channel/UCfTTIgSYOwY3gmCI7YhisEA"
-        class="cta-button cta-primary">Start Coding</a>
+      <p>Learn today, Build a Brighter tommorow</p>
+      <br>
+      <a href="https://www.youtube.com/channel/UCfTTIgSYOwY3gmCI7YhisEA" target="_blank"><div class="btn-container"><button class="btn btn-moving-gradient btn-moving-gradient--blue">Start Learning</button></div></a>
     </div>
   </div>
   <br>
-  <br>
+  <br></div><br><br><br>
   <amp-auto-ads type="adsense" data-ad-client="ca-pub-1002298090292560">
   </amp-auto-ads><br><br>
   <footer class="text-gray-600 body-font">

@@ -41,6 +41,8 @@
   <script type="text/javascript" src="https://e-codersofficial.github.io/close.js" defer></script>
   <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="loader.css">
+  <script type="text/javascript" src="loader.js"defer></script>
 </head>
 <script type="text/javascript" src="topbar.js"></script>
 
@@ -106,6 +108,12 @@
       </ul>
     </nav>
   </header>
+  <div class="showbox" id="loading">
+  <div class="loader"> <svg class="circular" viewBox="25 25 50 50">
+    <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+    </svg> </div>
+</div>
+<div style="display: none;" id="content">
   <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
@@ -129,7 +137,7 @@
     </div>
   </section>
   <br>
-  <br>
+  <br></div><br><br><br>
   <amp-auto-ads type="adsense" data-ad-client="ca-pub-1002298090292560">
   </amp-auto-ads><br><br>
   <footer class="text-gray-600 body-font">

@@ -43,6 +43,9 @@
     crossorigin="anonymous"></script>
   <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
   </script>
+  <link rel="stylesheet" type="text/css" href="loader.css">
+  <script type="text/javascript" src="loader.js"defer></script>
+  <link rel="stylesheet" type="text/css" href="btns.css">
 </head>
 <script type="text/javascript" src="topbar.js"></script>
 
@@ -108,6 +111,12 @@
       </ul>
     </nav>
   </header>
+  <div class="showbox" id="loading">
+  <div class="loader"> <svg class="circular" viewBox="25 25 50 50">
+    <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+    </svg> </div>
+</div>
+<div style="display: none;" id="content">
   <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
       <h1 class="h1 text-center md-12">News</h1>
@@ -235,12 +244,12 @@
   <div class="final-cta">
     <div class="container final-cta centred-content">
       <h1 class="h1">Start Coding Today!!</h1>
-      <p>Learn today, Build a Brighter tommorow</p> <a href="https://www.youtube.com/channel/UCfTTIgSYOwY3gmCI7YhisEA"
-        class="cta-button cta-primary">Start Coding</a>
+      <p>Learn today, Build a Brighter tommorow</p>
+      <br><a href="https://www.youtube.com/channel/UCfTTIgSYOwY3gmCI7YhisEA" target="_blank"><div class="btn-container"><button class="btn btn-moving-gradient btn-moving-gradient--blue">Start Learning</button></div></a>
     </div>
   </div>
   <br>
-  <br>
+  <br></div><br><br><br>
   <footer class="text-gray-600 body-font">
     <div
       class="container px-12 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col md-12 mobile-md-12">
