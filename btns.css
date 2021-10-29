@@ -1,5 +1,3 @@
-/*Not related to buttons*/.left{text-align: left;}
-
 /* https://www.cssscript.com/demo/cool-button-hover-effects/src/styles.css */
 html, body,#buttons {
 	width: 100%;
@@ -2437,3 +2435,6 @@ right: 0;
 		margin: 3px 0;
 	}
 
+
+	/* Owner by E - Coders: */
+	.btnsubmit{font-size:40px;text-transform: none;padding-bottom:15px;}
