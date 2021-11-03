@@ -8,6 +8,9 @@
 /** 
  * Used in this site, This topbar.js was made by buumguyen on github.
  * I was added them as a contributor, but he says to remove the contribution.
+ * Before beggining a case, check this pull request.
+ * This pull request was merged by me, but edited and removed the contribution.
+ * https://github.com/e-codersofficial/e-codersofficial.github.io/pull/19
  * You can talk to @buunguyen On github instead if have any questions about Am I copying that.
  */
 (function (window, document) {
