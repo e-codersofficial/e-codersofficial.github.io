@@ -4,7 +4,7 @@
   align-items: center;
   max-width: 1200px;
   flex-wrap: wrap;
-  padding: 40px none;
+  padding: none;
 }
 .service .card{
   position: relative;
