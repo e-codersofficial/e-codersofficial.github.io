@@ -1,20 +1,16 @@
-<<<<<<< HEAD
 .service{
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 1200px;
   flex-wrap: wrap;
-  padding: 40px 0;
+  padding: 40px none;
 }
 .service .card{
   position: relative;
   width: 320px;
   height: 440px;
-  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
-              inset -5px -5px 5px rgba(255,255,255,0.5),
-              -5px -5px 5px rgba(255,255,255,0.5),
-              -5px -5px 5px rgba(255,255,255,0.5);
+  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05), inset -5px -5px 5px rgba(255,255,255,0.5), -5px -5px 5px rgba(255,255,255,0.5), -5px -5px 5px rgba(255,255,255,0.5);
  border-radius: 15px;
  margin: 30px;
 }
@@ -116,10 +112,7 @@
   position: relative;
   width: 320px;
   height: 440px;
-  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
-              inset -5px -5px 5px rgba(255,255,255,0.5),
-              -5px -5px 5px rgba(255,255,255,0.5),
-              -5px -5px 5px rgba(255,255,255,0.5);
+  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05), inset -5px -5px 5px rgba(255,255,255,0.5), -5px -5px 5px rgba(255,255,255,0.5), -5px -5px 5px rgba(255,255,255,0.5);
  border-radius: 15px;
  margin: 30px;
 }
