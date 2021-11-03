@@ -1,0 +1,37 @@
+## Base Redirects ##
+
+# Turn on Rewrite Engine
+RewriteEngine On
+
+# Include trailing slash on non-filepath urls
+RewriteCond %{REQUEST_URI} !(.+)/$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*)$ https://e-codersofficial.github.io/$1/ [R=302,L]
+
+# Include trailing slash on non-filepath URLs with query string
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.+)/$
+RewriteCond %{QUERY_STRING} (.+)
+RewriteRule ^ https://e-codersofficial.github.io/%1/%2 [R=301,L]
+
+# Include trailing slash on non-filepath URLs with fragment
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.+)/$
+RewriteRule ^(.+)\#(.+)$ https://e-codersofficial.github.io/$1/#$2 [R=301,L]
+
+# Remove trailing slash from query string
+RewriteCond %{QUERY_STRING} (.+)/$
+RewriteRule (.*)$ https://e-codersofficial.github.io/$1?%1 [R=302,L]
+
+# Include trailing slash on directory 
+RewriteCond %{REQUEST_URI} !(.+)/$
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+)$ https://e-codersofficial.github.io/$1/ [R=302,L]
+
+# Force HTTPS and remove WWW
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [OR,NC]
+RewriteCond %{HTTPS} off [OR] 
+RewriteCond %{HTTP:X-Forwarded-Proto} !https [OR]
+RewriteCond %{HTTP:X-Forwarded-SSL} !https
+RewriteRule ^(.*)$ https://e-codersofficial.github.io/$1 [R=302,L]
