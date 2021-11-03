@@ -33,3 +33,29 @@
 .closebtn:hover {
   color: black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lang-chooser{margin: 8px;}.lang-chooser option{margin: 8px;padding: 8px;cursor: pointer;}
+[lang="fr"],
+[lang="sp"] {
+  display: none;
+}
