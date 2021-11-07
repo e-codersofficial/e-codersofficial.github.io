@@ -58,7 +58,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/67109815?v=4",
       "profile": "http://tailwindcss.com",
       "contributions": [
-        "design"
+        "design",
+        "code",
+        "bug"
       ]
     },
     {
@@ -73,7 +75,7 @@
   ],
   "contributorsPerLine": 7,
   "projectName": "e-codersofficial.github.io",
-  "projectOwner": "E-CodersOfficial",
+  "projectOwner": "e-codersofficial",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true
