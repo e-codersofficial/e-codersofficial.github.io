@@ -14,16 +14,66 @@
         "ideas",
         "code",
         "bug",
-        "security",
-        "planning",
-        "projectManagement",
-        "tool"
+        "content",
+        "data",
+        "design",
+        "financial",
+        "test",
+        "tutorial"
       ]
     },
+    {
+      "login": "Super45coder",
+      "name": "Aarush Goradia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80135238?v=4",
+      "profile": "https://codepen.io/Super45coder59",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "Genius398",
+      "name": "Anantjit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74092334?v=4",
+      "profile": "http://anantjit.whjr.site",
+      "contributions": [
+        "ideas",
+        "code",
+        "bug",
+        "doc"
+      ]
+    },
+    {
+      "login": "Google",
+      "name": "Google",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1342004?v=4",
+      "profile": "https://opensource.google/",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "Tailwindlabs",
+      "name": "Tailwind Labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67109815?v=4",
+      "profile": "http://tailwindcss.com",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "all-contributors",
+      "name": "All Contributors",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46410174?v=4",
+      "profile": "https://allcontributors.org",
+      "contributions": [
+        "code"
+      ]
+    }
   ],
   "contributorsPerLine": 7,
   "projectName": "e-codersofficial.github.io",
-  "projectOwner": "e-codersofficial",
+  "projectOwner": "E-CodersOfficial",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true
