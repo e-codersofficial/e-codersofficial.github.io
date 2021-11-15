@@ -282,3 +282,11 @@ button {
 .ca{
   text-align: center;
 }
+.margin-img{
+  margin-bottom: 20px;
+}
+.margin-img:hover{
+  box-shadow: 3px 3px 3px 3px #AAB8C2;
+  box-sizing: border-box;
+  box-decoration-break: clone;
+}
