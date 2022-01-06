@@ -147,3 +147,17 @@ span.red{
     font-size:20px;
     font-family: sans-serif;
 }
+
+.verdana{
+    font-family: Verdana;
+}
+.tag{
+    background-color: rgb(40,88,230);
+    display: inline-block;
+    width: 20%;
+    padding: 8px;
+    user-select: none;
+    text-align: center;
+    margin-top: 8px;
+    border-radius: 5px;
+}
