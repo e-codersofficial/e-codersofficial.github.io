@@ -1,1 +1,4 @@
-<html><body><script>c=new URL(window.location.url);window.location = c.searchParams.get("url");</script></body></html>
+<html><body><script>
+  c = new URL(window.location.href);
+  window.location.replace(c.searchParams.get("url"));
+</script></body></html>
